@@ -6,11 +6,11 @@
   .burger-menu {
     display: block;
     color: white;
-    font-size: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem);
+    font-size: 30px;
   }
   .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     padding: 20px;
   }
@@ -25,14 +25,36 @@
     width: 100%;
     max-width: 400px;
     margin-inline: 20px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 700px) {
   .m-btn-1,
   .m-btn-2 {
     padding: 14px 28px;
+    padding-block: 10px;
   }
   .container {
     padding-inline: 20px;
+  }
+  .main-text {
+    display: flex;
+    gap: 20px;
+  }
+  .main-text p {
+    line-height: 24px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  .main-text h1 {
+    width: 100%;
+    max-width: 330px;
+    margin-inline: 10px;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }

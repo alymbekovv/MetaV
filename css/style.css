@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Orbitron, sans-serif;
+  border: none;
+}
+
+body {
+  background: #020202;
+}
+
+p,
+button,
+a {
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: clamp(1.125rem, 0.739rem + 1.93vw, 2.188rem);
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+
+#header {
+  padding-block: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-weight: 600;
+  font-size: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem);
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+.burger-menu {
+  display: none;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: clamp(0.75rem, 0.386rem + 1.82vw, 1.75rem);
+}
+
+#main {
+  padding-block: 50px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-text h1 {
+  width: 100%;
+  max-width: 700px;
+  font-size: clamp(1.25rem, 0.682rem + 2.84vw, 2.813rem);
+}
+.main-text h1 span {
+  font-size: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+  font-weight: 700;
+  color: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-text p {
+  font-size: clamp(0.75rem, 0.568rem + 0.91vw, 1.25rem);
+  line-height: 35px;
+  width: 100%;
+  max-width: 570px;
+}
+.main-btn {
+  display: flex;
+  gap: 20px;
+  padding-block: 20px;
+}
+.m-btn-1 {
+  padding: 14px 40px;
+  border-radius: 5px;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+}
+.m-btn-2 {
+  padding: 14px 40px;
+  border-radius: 5px;
+  background-color: #020202;
+  border: 1px solid rgba(209, 14, 209, 1);
+}
+.people h6 {
+  font-size: clamp(0.75rem, 0.523rem + 1.14vw, 1.375rem);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.person {
+  display: flex;
+  gap: 75px;
+}
+.main img {
+  width: 100%;
+  max-width: 566px;
+}

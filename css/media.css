@@ -1,60 +1,131 @@
-@media (max-width: 950px) {
-  nav {
-    display: none;
-  }
-
-  .burger-menu {
-    display: block;
-    color: white;
-    font-size: 30px;
-  }
-  .main {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    padding: 20px;
-  }
-  .main img {
-    width: 100%;
-    max-width: 350px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .main img {
-    width: 100%;
-    max-width: 400px;
-    margin-inline: 20px;
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 700px) {
-  .m-btn-1,
-  .m-btn-2 {
-    padding: 14px 28px;
-    padding-block: 10px;
-  }
+@media screen and (max-width: 1200px) {
   .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  .activ h1 {
+    padding: 50px 0;
+    padding-left: 50px;
+    max-width: 910px;
+  }
+  .meta {
+    gap: 40px;
+  }
+  .content {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
     padding-inline: 20px;
   }
-  .main-text {
-    display: flex;
-    gap: 20px;
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
-  .main-text p {
-    line-height: 24px;
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
+  .main-text {
+    align-items: center;
+    gap: 10px;
   }
   .main-text h1 {
-    width: 100%;
-    max-width: 330px;
-    margin-inline: 10px;
+    max-width: 400px;
+    text-align: center;
   }
-  .main-text {
-    display: flex;
+  .main-text p {
+    max-width: 400px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .people-1 {
+    position: absolute;
+    top: 0;
+    left: 190px;
+  }
+  .people-2 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+  .people-3 {
+    position: absolute;
+    top: 70px;
+    right: 0;
+  }
+  .main img {
+    padding-block: 50px;
+  }
+  .meta {
     flex-direction: column;
-    gap: 10px;
+  }
+  .person a,
+  h6 {
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+    margin-inline: 20px;
+  }
+  .header nav {
+    display: none;
+  }
+  .menu-outline {
+    display: block;
+    color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .main {
+    position: relative;
+  }
+  .main img {
+    width: 100%;
+    max-width: 250px;
+    padding-block: 20px;
+  }
+  .people-1 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+  }
+  .people-2 {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+  }
+  .people-3 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  .person h6,
+  a {
+    font-size: 13px;
+  }
+  .person a {
+    font-size: 13px;
+  }
+  .person a,
+  h6 {
+    margin-bottom: 1px;
   }
 }

@@ -146,13 +146,11 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 .meta p {
-  width: 100%;
   max-width: 524px;
   color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
 }
 .meta button {
-  width: 100%;
   max-width: 137px;
   padding: 8px 13px;
   border-radius: 5px;
@@ -178,7 +176,6 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 .content-title p {
-  width: 100%;
   max-width: 684px;
   color: rgba(255, 255, 255, 0.8);
   line-height: 27px;
@@ -259,7 +256,7 @@ h6 {
   text-align: center;
 }
 .activ {
-  padding-block: 100px;
+  padding-block: 50px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -268,31 +265,22 @@ h6 {
   width: 100%;
   max-width: 1182px;
   border-radius: 25px;
-  height: 650px;
-}
-
-.party-2 {
-  width: 100%;
-  max-width: 1182px;
-  border-radius: 25px;
-  min-height: 650px;
 }
 
 .activ h1 {
   position: absolute;
-  bottom: 100px;
-  padding: 50px 50px;
+  bottom: 50px;
+  padding: 50px 280px;
   max-width: 1080px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
 }
 
 #footer {
+  /* padding-block: 100px; */
   background: rgba(9, 8, 35, 1);
-  padding-block: 100px;
 }
 .footer {
   display: flex;

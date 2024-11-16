@@ -102,6 +102,30 @@
     max-width: 250px;
     padding-block: 20px;
   }
+  .main-btn button {
+    padding: 8px 20px;
+  }
+  .meta-text {
+    gap: 10px;
+  }
+  .meta-text p {
+    line-height: 24px;
+  }
+  .meta-text button {
+    margin-top: 15px;
+  }
+  .content-title {
+    align-items: start;
+  }
+  .content {
+    padding-block: 50px;
+  }
+  .content-title h1 {
+    max-width: 300px;
+  }
+  .content-title p {
+    text-align: start;
+  }
   .people-1 {
     position: absolute;
     top: 0;
@@ -127,5 +151,40 @@
   .person a,
   h6 {
     margin-bottom: 1px;
+  }
+
+  .activ h1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 55px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .footer .container {
+    width: 100%;
+    max-width: 320px;
+  }
+  .footer p {
+    padding-top: 10px;
+  }
+  .footer ul {
+    font-size: 14px;
+    padding-block: 20px;
+  }
+  .contact h5 {
+    display: none;
+  }
+  .contact {
+    gap: 5px;
+    padding-block: 15px;
+  }
+  .contact img {
+    width: 100%;
+    max-width: 20px;
+  }
+  .contact a {
+    max-width: 310px;
   }
 }

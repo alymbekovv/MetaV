@@ -12,6 +12,8 @@
     padding: 50px 0;
     padding-left: 50px;
     max-width: 910px;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
   .meta {
     gap: 40px;

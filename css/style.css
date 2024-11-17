@@ -5,6 +5,7 @@
   font-family: Orbitron, sans-serif;
   border: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body {
